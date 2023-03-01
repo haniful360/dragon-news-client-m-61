@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Category from '../../Category/Category/Category';
+
 
 const LeftsideNav = () => {
     const [categories, setCategories] = useState([])
